@@ -11,10 +11,10 @@ import LatestPosts from "../components/Post/LatestPosts"
 const Index = () => {
   return (
     <>
-      <Seo title="Home" />
+      <Seo title="허예지다" />
       <Layout>
         <BannerModule
-          title="Welcome to Barcadia"
+          title="허허허."
           subTitle="Using a combination of Gatsby and Contentful, Barcadia is ready to deploy and simple to use."
         />
         <BasicTextModule
