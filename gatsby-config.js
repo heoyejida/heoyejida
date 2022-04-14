@@ -16,7 +16,7 @@ module.exports = {
     instagramUsername: "recordmemoryofmine",
     linkedinUsername: "morgan-baker-development",
     image: "Q1000532.jpeg",
-    siteUrl: "https://heoyejida.github.io",
+    siteUrl: "https://heoyejida.github.io/",
     developerName: "Morgan Baker Development",
     developerUrl: "https://www.morganbaker.dev",
   },
