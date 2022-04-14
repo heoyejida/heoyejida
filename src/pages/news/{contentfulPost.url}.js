@@ -4,16 +4,16 @@ import PostTemplate from "../../templates/post-template"
 import Seo from "../../components/SEO"
 import Layout from "../../components/Layout"
 
-const Post = ({ data: { contentfulPost } }) => {
-  return (
-    <>
-      <Seo title={contentfulPost.title} />
-      <Layout>
-        <PostTemplate {...contentfulPost} />
-      </Layout>
-    </>
-  )
-}
+// const Post = ({ data: { contentfulPost } }) => {
+//   return (
+//     <>
+//       <Seo title={contentfulPost.title} />
+//       <Layout>
+//         <PostTemplate {...contentfulPost} />
+//       </Layout>
+//     </>
+//   )
+// }
 
 // export const data = graphql`
 //   query postQuery($id: String) {
@@ -40,4 +40,4 @@ const Post = ({ data: { contentfulPost } }) => {
 //   }
 // `
 
-export default Post
+// export default Post
