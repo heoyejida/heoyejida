@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://barcadia.netlify.com/sitemap.xml
-Host: https://barcadia.netlify.com
