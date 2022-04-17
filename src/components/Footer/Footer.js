@@ -5,10 +5,10 @@ import { FooterStyles, FooterMenuStyles, CopyrightStyles } from "./FooterStyles"
 import useAllProduct from "../../hooks/use-all-product"
 import { UseSiteMetadata } from "../../hooks/useSiteMetadata"
 import {
-  FaFacebookSquare as Facebook,
-  FaTwitterSquare as Twitter,
+  // FaFacebookSquare as Facebook,
+  // FaTwitterSquare as Twitter,
   FaInstagram as Instagram,
-  FaLinkedin as Linkedin,
+  // FaLinkedin as Linkedin,
 } from "react-icons/fa"
 
 const Footer = () => {
@@ -56,16 +56,13 @@ const Footer = () => {
           </FooterMenuStyles>
         )}
 
-        {siteMeta.twitterUsername ||
-        siteMeta.facebookUsername ||
-        siteMeta.instagramUsername ||
-        siteMeta.linkedinUsername ? (
+        {siteMeta.instagramUsername? (
           <FooterMenuStyles className="footer__menu social__menu">
             <h5>
-              Follow Barcadia<span>.</span>
+              Follow heoyejida<span>.</span>
             </h5>
             <ul>
-              {siteMeta.twitterUsername && (
+              {/* {siteMeta.twitterUsername && (
                 <li>
                   <a
                     href={`https://www.twitter.com/${siteMeta.twitterUsername}`}
@@ -86,7 +83,7 @@ const Footer = () => {
                     <Facebook />
                   </a>
                 </li>
-              )}
+              )} */}
               {siteMeta.instagramUsername && (
                 <li>
                   <a
@@ -98,7 +95,7 @@ const Footer = () => {
                   </a>
                 </li>
               )}
-              {siteMeta.linkedinUsername && (
+              {/* {siteMeta.linkedinUsername && (
                 <li>
                   <a
                     href={`https://www.linkedin.com/in/${siteMeta.linkedinUsername}`}
@@ -108,7 +105,7 @@ const Footer = () => {
                     <Linkedin />
                   </a>
                 </li>
-              )}
+              )} */}
             </ul>
           </FooterMenuStyles>
         ) : (

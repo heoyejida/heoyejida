@@ -11,14 +11,14 @@ module.exports = {
     title: "허예지다",
     description: "허허허",
     author: "Heo Yeji",
-    twitterUsername: "barcadia",
-    facebookUsername: "barcadia",
+    // twitterUsername: "barcadia",
+    // facebookUsername: "barcadia",
     instagramUsername: "recordmemoryofmine",
-    linkedinUsername: "morgan-baker-development",
-    image: "Q1000532.jpeg",
+    // linkedinUsername: "morgan-baker-development",
+    image: "/house.jpeg",
     siteUrl: "https://heoyejida.github.io/",
-    developerName: "Morgan Baker Development",
-    developerUrl: "https://www.morganbaker.dev",
+    developerName: "Heo Yeji",
+    // developerUrl: "https://www.morganbaker.dev",
   },
   /* Your site config here */
   plugins: [
@@ -32,14 +32,14 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
-    {
-      resolve: "gatsby-plugin-robots-txt",
-      options: {
-        host: "https://barcadia.netlify.com",
-        sitemap: "https://barcadia.netlify.com/sitemap.xml",
-        policy: [{ userAgent: "*", allow: "/" }],
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-robots-txt",
+    //   options: {
+    //     host: "https://barcadia.netlify.com",
+    //     sitemap: "https://barcadia.netlify.com/sitemap.xml",
+    //     policy: [{ userAgent: "*", allow: "/" }],
+    //   },
+    // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-styled-components`,

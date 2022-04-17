@@ -14,8 +14,8 @@ const Index = () => {
       <Seo title="허예지다" />
       <Layout>
         <BannerModule
-          title="허허허."
-          subTitle="Using a combination of Gatsby and Contentful, Barcadia is ready to deploy and simple to use."
+          title="WELCOME"
+          subTitle="개발 / 사진 / 음악 위주의 끄적끄적 공간"
         />
         <BasicTextModule
           title="A super-fast theme that is easy to get started, using the power of
@@ -30,12 +30,12 @@ const Index = () => {
           <Perk title="The Title" content="The content" />
         </PerksModule>
         <Features
-          title="Featured Products from Barcadia."
-          introduction="Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas."
+          title="사진첩 from heoyejida"
+          introduction="곧 업뎃예정"
         />
         <LatestPosts
-          title="The Latest from Barcadia"
-          introduction="Cras scelerisque, tellus sed gravida tincidunt, velit tellus blandit justo, nec viverra augue erat in erat. Maecenas iaculis sed purus non fringilla."
+          title="음악추천 from heoyejida"
+          introduction="주로 브릿팝 좋아하고요, chill-hop도 자주 듣습니다."
         />
       </Layout>
     </>
